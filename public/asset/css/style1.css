@@ -1,0 +1,51 @@
+.main{
+    height: 100vh;
+}
+.sidebar{
+    background: rgb(117, 107, 107);
+    color: white;
+}
+.sidebar a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
+.sidebar a:hover {
+    background: yellow;
+    color: black;
+}
+.active {
+    background: yellow;
+    lighting-color: black;
+    border-right: solid 8px red;
+}
+.card-data{
+    border: solid 1px;
+    padding: 20px 50px;
+    color: white;
+}
+
+.card-data.books{
+    background-color: teal;
+}
+
+.card-data.categorys{
+    background-color: rgb(184, 66, 23);
+}
+
+.card-data.users{
+    background-color: rgb(147, 18, 18);
+}
+
+.card-data i{
+    font-size: 80px;
+}
+
+.card-desc{
+    font-size: 30px;
+}
+
+.card-count{
+    font-size: 30px;
+}
