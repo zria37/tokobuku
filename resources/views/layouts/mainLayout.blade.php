@@ -11,13 +11,11 @@
 </head>
 <body>
     <div class="main d-flex flex-column justify-content-between">
-        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-success">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Rental Buku</a>
-              <button class="navbar-toggler" type="button" 
-              data-bs-toggle="collapse" 
-              data-bs-target="#navbarSupportedContent" 
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand fs-3 fw-bold" href="/dashboard">Rental Buku</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
             </div>

@@ -2,7 +2,7 @@
     height: 100vh;
 }
 .sidebar{
-    background: rgb(117, 107, 107);
+    background: #6a015c;
     color: white;
 }
 .sidebar a{
@@ -12,14 +12,15 @@
     padding: 20px 10px;
 }
 .sidebar a:hover {
-    background: yellow;
+    background: #c16919;
     color: black;
 }
 .active {
-    background: yellow;
-    lighting-color: black;
-    border-right: solid 8px red;
-}
+    font-size: 18px;
+    font-weight: bold;
+    border-right: solid 10px red;
+    background-color: black;
+  }
 .card-data{
     border: solid 1px;
     padding: 20px 50px;
