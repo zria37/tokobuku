@@ -2,6 +2,10 @@
 @section('title', 'Categories')
 @section('content')
 <h1>Category List</h1>
+<div class="mt-5 d-flex justify-content-end">
+    <a href="/categories/add" class="btn btn-success ">Tambah Data</a>
+</div>
+
 <div class="mb-5">
     <table class="table table-striped">
         <thead>

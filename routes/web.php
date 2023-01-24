@@ -39,7 +39,10 @@ Route::middleware('auth')->group(function() {
     Route::get('dashboard', [AdminController::class, 'index'])->middleware('only_admin');
     Route::get('profile', [ClientController::class, 'index'])->middleware('only_client');
     Route::get('books', [BooksController::class, 'index']);
-    Route::get('categories', [CategoriesController::class, 'index']);
+    Route::get('/categories', [CategoriesController::class, 'index']);
+    Route::get('/categories/add', [CategoriesController::class, 'add']);
+
+
     Route::get('users', [UsersController::class, 'index']);
     Route::get('rent-logs', [RentlogController::class, 'index']);
 });
